@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    label, input, select {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Settings</h2>
+  <label for="domain">Domain:</label>
+  <input type="text" id="domain">
+
+  <label for="interval">Interval:</label>
+  <select id="interval">
+    <option value="60">1 Minute</option>
+    <option value="120">2 Minutes</option>
+    <option value="3600">1 Hour</option>
+    <option value="86400">1 Day</option>
+  </select>
+
+  <label for="regex">Cookie Name Regex:</label>
+  <input type="text" id="regex">
+
+  <button id="saveSettings">Save</button>
+
+  <script src="settings.js"></script>
+</body>
+</html>

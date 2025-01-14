@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>History</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Cookie Deletion History</h2>
+  <label for="filter">Filter by date:</label>
+  <input type="date" id="filter">
+  
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Cookie Name</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody id="historyTable"></tbody>
+  </table>
+
+  <script src="history.js"></script>
+</body>
+</html>
