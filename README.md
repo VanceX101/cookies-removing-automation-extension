@@ -9,9 +9,9 @@ This extension helps automate the process of removing cookies in your browser.
    git clone https://github.com/VanceX101/cookies-removing-automation-extension.git
 
 Open your browser and navigate to the Extensions page:
-For Chrome: chrome://extensions/
-For Firefox: about:addons
-Enable Developer mode in Chrome or Debug mode in Firefox.
+- For Chrome: chrome://extensions/
+- For Microsoft Edge: about:addons
+Enable Developer mode in Chrome or Debug mode in Microsoft Edge.
 Click on Load unpacked in Chrome or Load Temporary Add-on in Firefox and select the cloned repository folder.
 
 ## License
