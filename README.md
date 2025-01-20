@@ -12,7 +12,8 @@ Open your browser and navigate to the Extensions page:
 - For Chrome: chrome://extensions/
 - For Microsoft Edge: about:addons
 Enable Developer mode in Chrome or Debug mode in Microsoft Edge.
-Click on Load unpacked in Chrome or Load Temporary Add-on in Firefox and select the cloned repository folder.
+
+Click on Load unpacked in Chrome or Load Temporary Add-on in Microsoft Edge and select the cloned repository folder.
 
 ## License
 This project is licensed under the MIT License.
