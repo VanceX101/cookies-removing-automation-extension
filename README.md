@@ -16,5 +16,6 @@ Click on Load unpacked in Chrome or Load Temporary Add-on in Firefox and select 
 
 ## License
 This project is licensed under the MIT License.
-Code '''
+Code 
+'''
 You can create the README.md file by navigating to the repository and using the "Create new file" button.
